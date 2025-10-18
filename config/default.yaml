@@ -1,0 +1,23 @@
+app:
+  name: "vcc-checker-gateway-bot"
+  version: "1.0.0"
+  environment: "development"
+
+bank:
+  bin_range: "453201"
+  name: "Test Bank"
+  country: "US"
+  currency: "USD"
+
+gateways:
+  nexus:
+    base_url: "https://api.nexus-checker.com/v1"
+    max_requests_per_minute: 20
+    timeout: 30
+
+security:
+  alert_threshold: 0.7
+  test_mode: true
+
+logging:
+  level: "INFO"
