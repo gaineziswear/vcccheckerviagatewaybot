@@ -1,0 +1,4 @@
+# Only these will be installed - all are lightweight and pre-compiled
+# No building from source required
+requests>=2.25.0
+aiohttp>=3.7.0
